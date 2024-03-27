@@ -1,0 +1,8 @@
+@WebApplication1_HostAddress = http://localhost:5110
+
+POST {{WebApplication1_HostAddress}}/todo
+Content-Type: application/json
+
+{
+    "description": "12346579801234657980123465798012346579801234657980123465798012346579801234657980123465798012346579801234657980"
+}
